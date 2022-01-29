@@ -4,7 +4,7 @@ const shortId = require('shortid');
 
 const Request = require('request');
 
-const PORT = 5000;
+const PORT =process.env.PORT || 5000;
 
 server.use(express.json());
 
