@@ -43,5 +43,5 @@ server.post('/api/channels', async function (req, resOut) {
         }
     });
 
-    resOut.status(201).json(channelInfo);
+    resOut.status(201).json(req.body);
 });
