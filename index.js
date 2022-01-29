@@ -1,6 +1,5 @@
 const express = require('express');
 const server = express();
-const shortId = require('shortid');
 
 const Request = require('request');
 
