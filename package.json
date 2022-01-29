@@ -1,25 +1,15 @@
 {
-  "name": "nodesampleservice",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "server": "nodemon index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RajaveluPalanivel/NodeSampleService.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RajaveluPalanivel/NodeSampleService/issues"
-  },
-  "homepage": "https://github.com/RajaveluPalanivel/NodeSampleService#readme",
   "dependencies": {
     "express": "^4.17.2",
+    "pg": "^8.7.1",
     "request": "^2.88.2"
+  },
+  "name": "node-example",
+  "version": "1.0.0",
+  "description": "This example is so cool.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error no test spcecified\" && exit ",
+    "start": "node index.js"
   }
 }
